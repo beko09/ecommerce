@@ -87,7 +87,7 @@ To run the project locally on your device You need to :arrow_down:
    - Follow this link
  <a href="https://www.mongodb.com/try/download/compass">MongoDB Compass</a>
 
- - Import the database included in the project files
+ - Import the database included in the project file database-exm
 by running the following command inside MongoDB Compass terminal if you want that
     ```sh 
     mongorestore -d <database_name > <directory_backup>

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"ecommerce.users"},{"v":2,"unique":true,"key":{"email":1},"name":"email_1","ns":"ecommerce.users","background":true}],"uuid":"98d6fce1c37f4526958fb1ffe7859fe7"}
