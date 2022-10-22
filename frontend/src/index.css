@@ -1,0 +1,200 @@
+@import "~antd/dist/antd.css";
+/* @import "~antd/lib/style/themes/default.less"; */
+/* @import "~antd/lib/style/index"; */
+/* main color :#fa843f */
+
+
+@primary-color: #fa843f;
+@link-color: #fa843f;
+
+@font-face {
+  /* src: url("./res//font/Changa/Changa-Regular.ttf");
+  font-family: "Changa"; */
+  src: url("./res//font/cairo/ArbFONTS-Cairo-Regular-1.ttf");
+  font-family: "Cairo";
+}
+
+html,
+body {
+  /* font-family: "Changa"; */
+  font-family: "Cairo";
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: #f0f2f533;
+
+}
+
+
+
+
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+
+  }
+}
+
+@media (min-width:767px) {
+  .container {
+    max-width: 720px;
+
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+
+  }
+}
+
+
+.barsBtn:after,
+.barsBtn:before,
+.barsBtn {
+  background: #fa843f;
+}
+
+.ant-menu ul, .ant-menu ol {
+  text-align:right;
+}
+
+.ant-btn-primary {
+  border-color: #fa843f;
+  background: #fa843f;
+  box-shadow: none;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  border-color: #fa843f;
+  background: #fa843f;
+  opcatiy: .6;
+}
+
+ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #fa843f;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected,
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover,
+.ant-menu-horizontal>.ant-menu-item a:hover {
+  color: #fa843f;
+}
+
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #fa843f;
+}
+
+html[dir="rtl"] .ant-form-rtl .ant-form-item-label {
+  text-align: right;
+}
+
+.ant-menu-horizontal>.ant-menu-item-selected a,
+a {
+  color: #fa843f;
+}
+
+
+.ant-btn-background-ghost.ant-btn-primary ,
+.ant-btn-background-ghost.ant-btn-primary:hover,
+ .ant-btn-background-ghost.ant-btn-primary:focus {
+
+    color: #fa843f;
+    border-color: #fa843f;
+    text-shadow: none;
+}
+
+.ant-carousel .slick-dots li,
+.ant-carousel .slick-dots li.slick-active {
+  width: 15px;
+  height: 15px
+}
+
+.ant-carousel .slick-dots li button {
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #fff;
+  opacity: 1;
+  border: 1px solid #fa843f;
+
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #fa843f;
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield;
+
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.ant-table-thead>tr>th {
+  color: #1615159e;
+  background: #dadee282;
+  border-bottom: 2px solid #dadee282;
+}

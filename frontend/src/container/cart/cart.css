@@ -1,0 +1,233 @@
+@import "~antd/dist/antd.css";
+
+/*  cart */
+.ItemCart ,.cartShipping,.confirmOrder ,.payment{
+padding: 100px 0;
+}
+
+
+.imge-conifram {
+        height: 100px;
+    
+}
+
+.imge-conifram  img {
+    max-width:100%;
+       height: auto;;
+}
+
+.info-card {
+
+display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    margin: 0 17px;
+}
+
+.deleteitemcard {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.info-card .stockCounter {
+margin: 0;
+}
+
+
+.cartTitle {
+    margin-bottom:2rem;
+}
+
+.cartRow {
+      -webkit-box-align: center; 
+         -ms-flex-align: center; 
+            align-items: center;
+}
+
+.emtyCart {
+    margin:3rem 0;
+}
+.cartTitle span {
+    font-size:.9rem;
+}
+
+.cartEmpty {
+    font-size:6rem;
+}
+.cartEmpty svg {
+    fill: #fa843f4f;
+}
+                           
+.textEmpty {
+     color: #8a8686b3;
+    font-size: 1rem;
+}
+
+.cartHr {
+   border-color: rgb(255 255 255 / 17%);
+}
+
+.image-in-card {
+    height: 100px;
+    overflow: hidden;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-box-pack: start;  
+       -ms-flex-pack: start; 
+        justify-content: flex-start;
+  
+}
+
+.image-in-card img {
+    max-width: 100%;
+    height: inherit;
+
+}
+
+.gutter-box {
+    padding: 0 14px !important;
+}
+
+.gutter-inner-box .productLink {
+    color:#fa843f;
+}
+
+
+/*  confirm order */
+.shippingInfo {
+    margin:2rem 0;
+}
+
+.cartShipping .formLogin {
+    margin-top: 2rem;
+}
+
+.cartSubTitile {
+    margin:1.5rem 0;
+}
+
+.shippingInfo .addres {
+    margin:1.5rem 0;
+}
+.shippingInfo .cartItem {
+    margin:1rem 0;
+}
+
+
+
+.steps {
+    margin-top:2rem;
+}
+
+.step  .ant-steps-item-title{
+    font-size: .7rem;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: #fa843f;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+    border-color: #fa843f;
+}
+
+ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: #fa843f;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+    border-color: #fa843f;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color: #fa843f;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: #fa843f;
+}
+
+.ItemCart:is(.ant-btn:hover,.ant-btn:focus) 
+ {
+    color: #fa843f;
+    border-color: #fa843f;
+}
+
+
+.payment .formItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.payment .ant-form-item {
+    margin-bottom:0;
+}
+
+/*  media */
+@media (max-width:767px) {
+.info-card .stockCounter .count {
+    width:40px;
+    margin: 0 5px;
+}
+    .info-card {
+        -webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+  -webkit-box-align: start; 
+   -ms-flex-align: start;
+     align-items: flex-start;
+margin:0 8px 0 0;
+    }
+
+    .ItemCart ,.cartShipping,.confirmOrder ,.payment{
+    padding: 40px 0 100px;
+    }
+
+    .gutter-inner-box {
+        margin-bottom: 15px;
+    }
+   .cartItem .gutter-inner-box {
+        margin-bottom: 5px;
+        text-align:center;
+    }
+    .step  .ant-steps-item-title {
+    font-size: .7rem;
+}
+ .cartItem .gutter-inner-box {
+        text-align:center;
+    }
+
+    .image-in-card {
+
+    -webkit-box-pack: center; 
+       -ms-flex-pack: center;  
+         justify-content: center;
+    }
+
+    .cartRow {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+}

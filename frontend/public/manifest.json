@@ -1,0 +1,25 @@
+{
+  "short_name": "تسوق",
+  "name": "تسوق",
+  "icons": [
+    {
+      "src": "logo-tasawq.png",
+      "sizes": "64x64 32x32 24x24 16x16 80x80",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo-tasawq.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "logo-tasawq.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

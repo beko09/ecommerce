@@ -1,0 +1,52 @@
+
+
+.modalSearch .ant-modal-close {
+    display:none;
+}
+
+.modalSearch .ant-modal-body {
+    padding:0;
+}
+
+
+.search {
+    width:100%;
+}
+
+.search .inputSearch {
+    padding:18px;
+}
+
+.result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-bottom: 1px solid #fa843f;
+    padding-bottom:5px;
+}
+
+.result .resultImage {
+    padding:0 10px;
+}
+
+.result .resultImage img {
+    width:50px;
+    height:50px;
+}
+
+.searchContent .searchResult {
+     color:#fa843f;
+}
+@media(max-width:770px) {
+    .searchIconSm {
+font-size: 1.2rem;
+  color: #000000d9;
+}
+}

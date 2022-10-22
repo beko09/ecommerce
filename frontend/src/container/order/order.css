@@ -1,0 +1,50 @@
+
+
+.orderList ,.orderDetails {
+    margin:100px 0 ;
+}
+
+
+.orderList .ant-btn:hover, 
+.orderList .ant-btn:focus {
+    color: #fa843f;
+    border-color: #fa843f;
+}
+
+/* order Detail */
+
+.orderShipping ,.orderPayment{
+    margin-bottom:50px;
+}
+
+.orderTitle {
+    margin-bottom:4rem;
+}
+
+.orderListUl {
+    list-style:none;
+    padding:0;
+}
+
+.orderListUl  li  {
+    margin:15px 0;
+}
+
+.orderListUl  li b { 
+ color:rgba(0, 0, 0, 0.85);
+}
+
+.orderListUl li  span {
+    color:#a8a8a8;
+    padding:0 1rem;
+    font-size: 1rem;
+}
+
+
+/* media screen */
+
+@media (max-width:767px) {
+    .orderList ,.orderDetails {
+    margin:60px 0 ;
+}
+}

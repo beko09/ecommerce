@@ -1,0 +1,81 @@
+
+
+.profile {
+    padding:100px 0;
+}
+
+.profileCard {
+    width:100%;
+    background:transparent;
+    border:0;
+}
+
+.profile .cardImgProfile {
+    width:150px;
+    height:150px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    text-align:center;
+        margin: 0px auto;
+    padding: 20px;
+   
+}
+
+.profileCard .ant-card-cover {
+    margin-top: 0;
+    margin-right: -1px;
+    margin-left: -1px;
+    background: #d3eadf3d;
+}
+
+.profile .cardImgProfile img {
+    width:100%;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.actionButton {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    background:transparent;
+    border:0;
+}
+
+.profile .ant-card-body {
+    background:#fff;
+}
+
+.profile .ant-card-actions {
+    border-top:0;
+    padding:0 10px;
+}
+
+@media(max-width:767px) {
+     .profile {
+    padding:60px 0 100px 0;
+        overflow:hidden;
+}
+    .profileCard {
+        width:100%;
+        max-width:100%;
+        overflow:hidden;
+    }
+   
+.profile .ant-card-body ,
+.profile .ant-card-actions {
+    background:transparent;
+}
+
+}
+

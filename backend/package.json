@@ -1,0 +1,48 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "online shop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "PORT=4000 NODE_ENV=DEVELOPMENT nodemon  server.js",
+    "reactide-server": "webpack-dev-server --config reactide.config.js --mode development --hot"
+  },
+  "author": "abobaker hilal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.6.3",
+    "reactide-config": "^1.0.2",
+    "stripe": "^8.169.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0-beta.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^2.0.12",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.0"
+  }
+}

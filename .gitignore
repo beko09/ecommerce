@@ -1,0 +1,46 @@
+/node_modules
+node_modules
+/backend/node_modules
+/frontend/node_modules
+/build
+/frontend/build
+dev.js
+/backend/components/config/config.env
+/backend/components/config/config.env
+/backend/components/config
+/frontend/src/config/env.js
+/frontend/src/config/.env
+env.js
+.env.js
+
+.DB_Store
+npm-debug.log*
+yarn-debug.kog*
+yarn-eror.log*
+.vscode
+
+
+
+# misc
+
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/src/config/env.js
+
+backend/components/config
+backend/components/config/config.env

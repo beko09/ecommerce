@@ -1,0 +1,369 @@
+
+
+@import "~antd/dist/antd.css";
+
+
+nav {
+ width:100%;
+ background: #fff;
+  border-bottom: solid 1px #e8e8e8; 
+-webkit-box-shadow: 0 0 30px #f3f1f1; 
+        box-shadow: 0 0 30px #f3f1f1;
+ border-top: 3px solid #f6813f;
+    
+}
+
+.menuLg {
+  width:400px;
+}
+
+
+.menuBar {
+   
+  display: -webkit-box;
+   
+  display: -ms-flexbox;
+   
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 150px;
+  /* float: left; */
+}
+
+.logo a {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.menuCon {
+  width: calc(100% - 150px);
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+
+.menuCon .ant-menu-item {
+  padding: 0px 5px;
+}
+
+.menuCon .ant-menu-submenu-title {
+  padding: 10px 20px;
+}
+
+.menuCon .ant-menu-item a,
+.menuCon .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+
+.menuCon .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.menuCon .leftMenu {
+    margin: auto;
+}
+
+.menuCon .rightMenu {
+}
+
+.barsMenu {
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+}
+
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1890ff;
+  position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 2px;
+  background: #1890ff;
+}
+
+.barsBtn:after {
+  top: auto;
+  bottom: -6px;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.barsMenu>span {
+  display: block;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+
+/*  User Menu */
+
+.showInPhone {
+  display:none;
+}
+
+.showInLarge {
+  display:block;
+}
+
+.userMenu {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userNav {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    padding: 0 10px;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.userName {
+      padding: 0 10px;
+}
+
+.userImage {
+  height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.userImage img {
+  width:100%;
+  height:100%;
+   border-radius: 50%;
+}
+
+.cart {
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+}
+
+.cartLink {
+padding: 10px;
+position: relative;
+}
+
+.userIconSm {
+font-size: 1.2rem;
+  color: #000000d9;
+}
+
+.cartIcon {
+  position: relative;
+  font-size: 1.7rem;
+  color: #000000d9;
+}
+
+.cartCount {
+position: absolute;
+    right: 0;
+    top: -6px;
+    background: #fa843f;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-weight:bold;
+}
+
+.subMenu .ant-dropdown-menu-title-content {  
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .subMenu .ant-dropdown-menu-item:hover,
+  .subMenu .ant-dropdown-menu-submenu-title:hover {
+    background-color: #f5782f3d;
+        color: #fa843f;
+}
+
+.subMenu .ant-dropdown-menu-title-content > a {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
+
+.loginAnc {
+  color:#000000d9;
+}
+
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+  
+    border-right: 3px solid #fa843f;
+  }
+
+.ant-menu-item a:hover,
+.ant-menu-item-selected a, 
+.ant-menu-item-selected a:hover,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon,
+ .ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+ 
+    color: #fa843f;
+}
+
+.ant-menu-item:active, .ant-menu-submenu-title:active {
+   background: #fa843f59;
+    color: #fa843f;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #fa843f29;
+}
+/*  End User Menu */
+
+@media (max-width: 767px) {
+  .menuLg {
+  width:initial;
+}
+  .barsMenu {
+    display: inline-block;
+   outline: none;
+    border: 0;
+
+  }
+
+.barsBtn:after, .barsBtn:before, .barsBtn {
+  background: #464647 !important
+}
+
+  .leftMenu
+   {
+    display: none;
+  }
+ .menuCon .rightMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+ .userMenu {
+    margin: 0 ;
+     -webkit-box-align:baseline;
+         -ms-flex-align:baseline;
+             align-items:baseline;
+}
+
+.smMenu {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+
+.smMenu .userIconSm {
+  margin:0 20px;
+}
+
+  .menuCon .ant-menu-item,
+  .menuCon .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+ .menuCon {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  
+.cartIcon {
+  position: relative;
+  font-size: 1.2rem;
+  color: #000000d9;
+}
+.cartCount {
+ top: 2px;
+width: 20px;
+height: 20px;
+font-size: .7rem;
+line-height: 20px;
+
+}
+
+.showInPhone {
+  display:block;
+}
+
+.showInLarge {
+  display:none;
+}
+
+.userImage {
+  width:22px;
+  height:22px;
+}
+
+
+}

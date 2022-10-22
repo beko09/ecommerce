@@ -1,0 +1,163 @@
+
+
+.card {
+    position: relative;
+    overflow:hidden;
+    margin: 10px !important;
+}
+
+
+
+.btnCart {
+  border: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background: #fa843f;
+  color: #fff;
+  transform: translateX(-1000px);
+  -webkit-transform: translateX(-1000px);
+  -moz-transform: translateX(-1000px);
+  -ms-transform: translateX(-1000px);
+  -o-transform: translateX(-1000px);
+  -webkit-transition: transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+  -webkit-transition: transform 500ms ease-in-out;
+  -moz-transition: transform 500ms ease-in-out;
+  -ms-transition: transform 500ms ease-in-out;
+  -o-transition: transform 500ms ease-in-out;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.btnCart:hover {
+    opacity:.6;
+}
+
+ .card .ant-card-actions {
+    position: absolute;
+bottom: 26%;
+border: 0;
+height: 0;
+left: 5%;
+}
+.productLink {
+ color:#fa843f;
+}
+.imageCard {
+    height: 200px;
+    padding: 10px;
+     position: relative;
+    overflow: hidden;
+     display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+  
+}
+
+.card  .ant-card-cover {
+        position: relative;
+    overflow: hidden;
+}
+
+.imageCard  img {
+    max-width: 100%;
+    height: inherit;
+    transition: transform .5s cubic-bezier(0,0,.44,1.18);
+    -webkit-transition: transform .5s cubic-bezier(0,0,.44,1.18);
+    -moz-transition: transform .5s cubic-bezier(0,0,.44,1.18);
+    -ms-transition: transform .5s cubic-bezier(0,0,.44,1.18);
+    -o-transition: transform .5s cubic-bezier(0,0,.44,1.18);
+}
+
+
+.card  .ant-card-cover:hover .imageCard  img  {
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+
+.price {
+    margin:10px 0
+}
+
+.price .currency {
+    color:rgb(8, 204, 8);
+}
+
+.discountPrice {
+   display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.discountPrice .oldPrice {
+    font-size: 1.125em;
+    text-decoration: line-through;
+    color: #6c757d;
+        margin-right: 15px;
+}
+
+.oldPrice .currency {
+    color: #6c757d;
+}
+
+
+.products .ant-rate {
+    font-size: 17px;
+}
+
+.card:hover .btnCart {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
+
+
+@media(max-width:770px) {
+
+    .card {
+    width: 100%;
+    margin: 20px 0 !important;
+    }
+
+.btnCart {
+     width: 40px;
+  height: 40px;
+     transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
+
+}
+
+

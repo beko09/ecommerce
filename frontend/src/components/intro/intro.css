@@ -1,0 +1,191 @@
+
+
+@import "~antd/dist/antd.css";
+
+.carouselIntro {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  width:100%;
+}
+
+.carouselIntro .ant-carousel .slick-dots li button {
+  
+    margin-right:80px
+}
+
+.carouselIntro .ant-carousel .slick-dots li.slick-active button {
+background: #fa843f;
+}
+
+.carouselIntro .carouselImage {
+    width: 100%;
+      display: block;
+}
+
+.carouselIntro .mask {
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselIntro .mask .overLay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  content:"";
+  top: 30%;
+  right: 20%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  background: #fa843fb3;
+  color: #fff;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  z-index:5;
+}
+.carouselIntro .mask .overLay::after ,
+.carouselIntro .mask .overLay::before {
+   position: absolute;
+   content: '';
+   top: 0;
+   left: 0;
+   width: 150px;
+  height: 150px;
+  text-align: center;
+  background: #fa843fb3;
+  color: #fff;
+  z-index: -3;
+
+}
+
+.carouselIntro .mask .overLay::before {
+    transform:rotate(300deg);
+    -webkit-transform:rotate(300deg);
+    -moz-transform:rotate(300deg);
+    -ms-transform:rotate(300deg);
+    -o-transform:rotate(300deg);
+}
+.carouselIntro .mask .overLay::after {
+  transform:rotate(60deg);
+  -webkit-transform:rotate(60deg);
+  -moz-transform:rotate(60deg);
+  -ms-transform:rotate(60deg);
+  -o-transform:rotate(60deg);
+}
+
+.carouselIntro .mask .overLay h4 {
+   color: #fff;
+   font-size:1rem;
+}
+
+@media(max-width:770px) {
+    .carouselIntro {
+  height:100%;
+  max-height: 300px;
+  position: relative;
+}
+.carouselIntro .mask .overLay {
+  top: 40%;
+  right: 10%;
+}
+
+
+.carouselIntro .mask .overLay,
+.carouselIntro .mask .overLay::after ,
+.carouselIntro .mask .overLay::before {
+width: 80px;
+  height: 80px;
+}
+}
+
+
+
+
+@-webkit-keyframes rotatingOne {
+  from {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+to {
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+}
+}
+
+
+
+
+@keyframes rotatingOne {
+  from {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+to {
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+}
+}
+
+
+@-webkit-keyframes rotatingTwo {
+  from {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+to {
+   transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+}
+}
+
+
+@keyframes rotatingTwo {
+  from {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+to {
+   transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+}
+}

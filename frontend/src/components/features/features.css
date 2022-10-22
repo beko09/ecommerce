@@ -1,0 +1,105 @@
+.features {
+    padding: 100px 0;
+}
+
+.features .feature {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+.title-features {
+    padding-bottom:30px;
+}
+
+.feature .inner {
+    position: relative;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 1px solid #fa843f;
+    border-radius: 100%;
+
+}
+
+.inner::before,
+.inner::after {
+    position: absolute;
+    content: "";
+    left:0;
+    right:0;
+    background-color: #fa843f;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+
+
+ .inner::after {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    right: 6px;
+}
+
+.inner::before {
+    left: 0px;
+    right: initial;
+    width: 15px;
+    height: 2px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.feature:hover .inner::after {
+    transform: skew(-5deg, -5deg);
+    -webkit-transform: skew(-5deg, -5deg);
+    -moz-transform: skew(-5deg, -5deg);
+    -ms-transform: skew(-5deg, -5deg);
+    -o-transform: skew(-5deg, -5deg);
+}
+
+.feature:hover .inner::before {
+    left: -15px;
+    opacity: 1 ;
+    visibility: visible;
+
+}
+
+
+ .inner .icon {
+ 
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    font-size: 1.2rem;
+
+}
+
+.feature span {
+    font-size: 15px;
+}
+
+@media (max-width:767px) {
+    .features .feature {
+        padding: 0 40px;
+    }
+}
