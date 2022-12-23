@@ -199,7 +199,7 @@ Entering a folder backend
 ```
 
 
-See :eyes: the [open issues](https://github.com/beko09/foodroad/issues) for a full list of proposed features (and known issues).
+See :eyes: the [open issues](https://github.com/beko09/ecommerce/issues) for a full list of proposed features (and known issues).
 <br/>
 <br/>
 [:arrow_up: Back to top](#top)
